@@ -18,4 +18,5 @@ function draw()
 			background("#ab1300");
 		}
 	}
+	console.log(frameCount);
 }
