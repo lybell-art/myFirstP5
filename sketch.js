@@ -8,7 +8,7 @@ function draw()
 {
 	if (mouseIsPressed) 
 	{
-	var size = random(10, 100);
+	var size = map(dist(mouseX,mouseY,pmouseX,pmouseY),0,400,5,80);
 	ellipse(mouseX, mouseY, size, size); 
 	}
 	if(keyIsPressed)
